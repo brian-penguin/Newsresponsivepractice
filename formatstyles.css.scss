@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: #666;
+  color: black;
 }
 #logo{
   margin-top: -15px;
@@ -21,12 +21,13 @@ body {
   width: 960px;
   padding: 5px;
   margin: 20px auto;
+  border: 1px solid;
 }
 #title{
   height: 100px;
   padding: 5px;
   text-align:center;
-  border-bottom: 1px solid #666
+  border-bottom: 1px solid #666;
 }
 #column-1{
   width: 190px;
