@@ -6,28 +6,27 @@ body {
   font-family: 'Lato', sans-serif;
   color: black;
 }
-#logo{
-  margin-top: -15px;
-}
-#headtagline{
-  margin-top: -15px;
-}
-.article-header{
-  font-family: 'Droid Serif', serif;
-  font-style: italic;
-}
-// Size formats
 #sitewrap{
   width: 960px;
   padding: 5px;
   margin: 20px auto;
   border: 1px solid;
 }
+#logo{
+  width: 300px;
+  height: auto;
+}
+.article-header{
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+}
+// Size formats
+
 #title{
   height: 100px;
   padding: 5px;
   text-align:center;
-  border-bottom: 1px solid #666;
+  border: 1px solid #666;
 }
 #column-1{
   width: 190px;
@@ -65,6 +64,9 @@ body {
   #sitewrap {
     width: 95%;
   }
+  #logo{
+    width: 95%;
+  }
   #column-1 {
     width: 41%;
     padding: 1% 4%;
@@ -91,7 +93,10 @@ body {
 @media screen and (max-width: 600px) {
 
   #sitewrap{
-    width: 95%
+    width: 95%;
+  }
+  #logo{
+    width: 95%;
   }
 
   #column-1 {
