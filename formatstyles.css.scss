@@ -4,48 +4,57 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  color: black;
+  color: #666;
 }
-#sitewrap{
+#sitewrap {
   width: 960px;
   padding: 5px;
   margin: 20px auto;
-  border: 1px solid;
 }
-#logo{
-  width: 300px;
-  height: auto;
-}
-.article-header{
-  font-family: 'Droid Serif', serif;
-  font-style: italic;
-}
-// Size formats
 
-#title{
+#title {
   height: 100px;
   padding: 5px;
   text-align:center;
-  border: 1px solid #666;
+  border-bottom: 1px solid #666;
 }
-#column-1{
+
+#logo{
+  height:50px;
+}
+
+#headtagline{
+  margin-top: -5px;
+}
+
+#column-1 {
   width: 190px;
   float: left;
   padding: 5px 15px;
   border-right: 1px solid #666;
 }
-#column-2{
+
+#column-2 {
   width: 384px;
   float: left;
   padding: 5px 15px;
   margin: 0px 5px 5px 5px;
   border-right: 1px solid #666;
 }
-#column-3{
+
+#column-3 {
   width: 280px;
   float: left;
   padding: 5px 15px;
 }
+
+.article-header{
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+}
+
+// Size formats
+
 // #column-main{
 //   width: 620px;
 //   padding: 5px 15px;
@@ -62,9 +71,6 @@ body {
 @media screen and (max-width: 980px) {
 
   #sitewrap {
-    width: 95%;
-  }
-  #logo{
     width: 95%;
   }
   #column-1 {
@@ -93,9 +99,6 @@ body {
 @media screen and (max-width: 600px) {
 
   #sitewrap{
-    width: 95%;
-  }
-  #logo{
     width: 95%;
   }
 
